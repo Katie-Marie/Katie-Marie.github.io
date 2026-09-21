@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Katie-Marie Enlow</title>
+<meta name="description" content="Katie-Marie Enlow is a native Android developer in New Zealand, working on precision agriculture software and the machinery it drives over USB serial and CAN bus.">
+<link rel="canonical" href="https://katie-marie.github.io/">
+<meta property="og:title" content="Katie-Marie Enlow">
+<meta property="og:description" content="Native Android developer in New Zealand. Precision agriculture software, and the machinery it drives over USB serial and CAN bus.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://katie-marie.github.io/">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5c5c5c;
+    --rule: #e3e3e3;
+    --link: #0b5cad;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12141a;
+      --fg: #e8e8e8;
+      --muted: #a0a4ad;
+      --rule: #2a2e38;
+      --link: #79b8ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 34rem; margin: 0 auto; padding: 4rem 1rem 5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .3rem; letter-spacing: -.01em; }
+  .tagline { color: var(--muted); margin: 0 0 2rem; }
+  p { margin: 0 0 1.2rem; }
+  h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
+       font-weight: 600; margin: 2.5rem 0 .8rem; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { padding: .7rem 0; border-top: 1px solid var(--rule); }
+  li:last-child { border-bottom: 1px solid var(--rule); }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .what { color: var(--muted); font-size: .92rem; display: block; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Katie-Marie Enlow</h1>
+  <p class="tagline">Native Android developer in New Zealand</p>
+
+  <p>I work on precision agriculture software. It runs on tablets mounted in agricultural
+  vehicles and aircraft, and controls the spray and spread equipment they carry.</p>
+
+  <p>That splits into two halves. One is ordinary Android: Kotlin, Room, coroutines, and the
+  long migration of a View Binding codebase to Jetpack Compose. The other is the wired-up
+  half, where the tablet is plugged into rate controllers, GPS receivers and load cells over
+  USB serial and CAN bus.</p>
+
+  <h2>Elsewhere</h2>
+  <ul>
+    <li>
+      <a rel="me" href="https://github.com/Katie-Marie/android-notes">android-notes</a>
+      <span class="what">Notes on native Android development and hardware integration</span>
+    </li>
+    <li>
+      <a rel="me" href="https://github.com/Katie-Marie">GitHub</a>
+      <span class="what">Profile and repositories</span>
+    </li>
+  </ul>
+
+  <footer>Kotlin, Jetpack Compose, View Binding, Room, coroutines and Flow, USB serial and CAN bus.</footer>
+</main>
+</body>
+</html>
